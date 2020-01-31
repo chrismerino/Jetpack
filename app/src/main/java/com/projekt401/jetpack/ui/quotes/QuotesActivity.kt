@@ -1,15 +1,15 @@
-package com.projekt401.jetpack
+package com.projekt401.jetpack.ui.quotes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.projekt401.jetpack.databinding.ActivityMainBinding
+import com.projekt401.jetpack.databinding.ActivityQuotesBinding
 
-class MainActivity : AppCompatActivity() {
+class QuotesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        val binding = ActivityQuotesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
