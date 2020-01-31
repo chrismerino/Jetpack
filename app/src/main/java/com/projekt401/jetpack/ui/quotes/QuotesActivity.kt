@@ -9,7 +9,7 @@ class QuotesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityQuotesBinding.inflate(layoutInflater)
+        val binding = com.projekt401.jetpack.databinding.ActivityQuotesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
